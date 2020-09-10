@@ -1,4 +1,9 @@
+# Hiii. In this game, you are going to make a guess between 1 and 10.
+# There are total of 5 max attempts (hint : one of them is correct)
+# Good luck, you'll need that :P
+
 from random import randint
+
 while True:
     guess_name = input("Hello, what's your name? ")
     if guess_name.isalpha():
